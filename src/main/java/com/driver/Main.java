@@ -6,5 +6,9 @@ public class Main {
         mercedes.move(40, 0);
         mercedes.accelerate(20);
         mercedes.accelerate(-60);
+
+        Boat yacht = new Boat("Yacht", 20);
+        System.out.println("Boat Name: " + yacht.getVehicleName());
+        System.out.println("Boat Capacity: " + yacht.getVehicleCapacity());
     }
 }
